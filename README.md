@@ -23,3 +23,30 @@ conditions, different hand orientations, and a wide range of hand
 sign variations. The solution must be robust, user-friendly, and able 
 to operate effectively in dynamic environments to facilitate 
 seamless interaction.
+
+# Softwares Required
+To execute this program on your Machine, Makesure you install Modules called
+
+-- ultralytics
+       
+       pip install ultralytics
+
+-- openCV-python
+        
+       pip install opencv-python
+
+-- Playsound
+        
+       pip install playsound
+
+# Video Capture Deatils
+To feed your camer input, Modify the Argument in code accordingly.
+
+  ARGUMENT (0) -> Refers the internal Webcam
+
+  ARGUMENT (1) -> Refers the additional external Webcam
+
+if camera feed is not opening properly try different arguments in 
+
+    cap=cv2.VideoCapture(Argument)
+  
